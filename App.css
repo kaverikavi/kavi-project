@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #0d0d30;
+    color: #ffffff;
+  }
+  
+  .main-container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00bcd4;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .status-button {
+    background-color: #00bcd4;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .sub-heading {
+    font-size: 14px;
+    color: #00bcd4;
+    font-weight: bold;
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .highlight {
+    color: #00bcd4;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #a6a6a6;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .primary-button {
+    background-color: #00bcd4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .secondary-button {
+    background-color: transparent;
+    color: #00bcd4;
+    padding: 10px 20px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .image-content {
+    max-width: 40%;
+  }
+  
+  .vaccine-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .schedule {
+    margin-top: 50px;
+    background-color: #15154a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .schedule h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .schedule-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .detail-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .submit-button {
+    background-color: #00bcd4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+    }
+  
+    .text-content {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .image-content {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .schedule-details {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
